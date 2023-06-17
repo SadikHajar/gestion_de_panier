@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+section {
+    padding: 5% 10%;
+}
+
+
+.navbar{
+    
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #EE1C47;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #111;
+    transition: .3s;
+}
+
+button{
+    border: none;
+    background: #EE1C47;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    margin-top: 20px;
+}
+
+button:hover{
+    background: #111;
+    cursor: pointer;
+
+}
+
+
+#cart-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#cart-container table thead{
+    font-weight: 700;
+}
+
+#cart-container table thead td {
+    background: #EE1C47;
+    color: white;
+    border: none;
+}
+
+#cart-container table td{
+    border: 1px solid silver;
+    text-align: center;
+}
+
+#cart-container table tbody img{
+    width: 100px;
+    height: 80px;
+}
+
+
+
+
+/* trending-section-css */
+.center-text h2 {
+    color: #111;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center-text span {
+    color: #EE1C47;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 2rem;
+}
+
+.row {
+    position: relative;
+    transition: all .40s;
+}
+s
+.row img {
+    width: 200px;
+    height: 100px;
+    transition: all .40s;
+}
+
+.row img:hover {
+    transform: scale(0.9);
+}
+
+.price h4 {
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.price p {
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+}
